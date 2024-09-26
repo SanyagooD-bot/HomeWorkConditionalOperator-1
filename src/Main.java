@@ -6,7 +6,7 @@ public class Main {
 
         if (age >= 18)
         {
-            System.out.println("Hui");
+            System.out.println("Домашнее задание №1 Условный оператор");
         }
 
 
