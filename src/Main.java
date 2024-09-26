@@ -17,12 +17,12 @@ public class Main {
 
         System.out.println("___________________________________Задача 2___________________________________");
 
-        int temp = 13;
-        if (temp < 5)
+        int temperature = 13;
+        if (temperature < 5)
         {
-            System.out.println("На улице " + temp + " радусов, наденьте шапку");
+            System.out.println("На улице " + temperature + " радусов, наденьте шапку");
         } else {
-            System.out.println("На улице " + temp + " радусов, не надевайте шапку");
+            System.out.println("На улице " + temperature + " радусов, не надевайте шапку");
         }
 
         System.out.println("________________________________________________________________________________");
@@ -44,7 +44,7 @@ public class Main {
         System.out.println("___________________________________Задача 4___________________________________");
 
         int years = 17;
-        if (years >= 2 && years <= 7)
+        if (years >= 2 && years <= 6)
         {
             System.out.println("Если возраст человека равен " + years + " то ему нужно ходить в детский сад.");
         }
@@ -66,12 +66,13 @@ public class Main {
 
         System.out.println("___________________________________Задача 5___________________________________");
 
-        int old = 8;
+        int old = 11;
         if (old < 5)
         {
             System.out.println("Если возраст ребенка равен " + old + " то ему нельзя кататься на аттракционе.");
         }
-        if (old > 5 && old < 14) {
+        if (old > 5 && old < 14)
+        {
             System.out.println("Если возраст ребенка равен " + old + " то ему можно кататься на аттракционе в сопровождении взрослого.");
         }
         if (old > 14)
